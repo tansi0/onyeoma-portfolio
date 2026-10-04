@@ -1,0 +1,9 @@
+To add a downloadable CV:
+1. Export your general CV to PDF.
+2. Rename it to: resume.pdf
+3. Put resume.pdf in this public/ folder.
+4. Open src/config/site.js and change:
+   showResume: false
+   to:
+   showResume: true
+5. Commit and push. Netlify will redeploy automatically.
